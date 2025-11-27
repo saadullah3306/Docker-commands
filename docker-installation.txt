@@ -1,0 +1,26 @@
+    1  sudo apt update
+    2  sudo apt install docker.io
+    3  docker --version
+    4  sudo systemctl start docker
+    5  sudo systemctl status docker
+    6  sudo systemctl enable docker
+    7  whoami
+    8  sudo usermod -aG docker $user
+    9  sudo usermod -aG docker $USER
+   10  sudo docker pull nginx
+   11  sudo docker images
+   12  sudo docker run -p 8000:80 nginx
+   13  sudo docker run -d -p 8000:80 nginx
+   14  sudo docker ps
+   15  sudo docker images
+   16  sudo docker ps -l
+   17  sudo docker ps
+   18  sudo docker stop eb63f338e67a 
+   19  sudo docker rm eb63f338e67a 
+   20  sudo docker run -d -p 8000:80
+   21  sudo docker run -d -p 8000:80 nginx
+   22  sudo docker logs eb63f338e67a 
+   23  sudo docker ps
+   24  sudo docker logs d067b1a4039d 
+   25  history > touch docker-installation.txt
+   26  history > docker-installation.txt
