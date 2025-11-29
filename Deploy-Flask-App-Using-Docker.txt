@@ -1,0 +1,96 @@
+    1  git clone https://github.com/Umair1012/Flask-Based-Python-Application-on-AWS-EC2-with-Docker.git
+    2  python --version
+    3  phyton3 --version
+    4  phython3 --version
+    5  sudo apt install phython3
+    6  phython3 --version
+    7  python3 --version
+    8  ls
+    9  cd Flask-Based-Python-Application-on-AWS-EC2-with-Docker
+   10  ls
+   11  python -m venv venv
+   12  python -m venv flask-app
+   13  sudo apt update
+   14  python -m venv flask-app
+   15  sudo apt install phthon3.12-venv
+   16  sudo apt install python3.12-venv
+   17  python3 -m venv flask-app
+   18  flask-app/bin/activate
+   19  source flask-app/bin/activate
+   20  pip install -r requirements.txt
+   21  ls
+   22  phthon app.py 0.0.0.0:8000
+   23  python app.py 0.0.0.0:8000
+   24  cat app.py
+   25  python app.py 0.0.0.0.:8000
+   26  exit
+   27  ls
+   28  cd Flask-Based-Python-Application-on-AWS-EC2-with-Docker
+   29  nano Dockerfile
+   30  sudo docker build . -t flask-app
+   31  sudo apt install docker.io -y
+   32  sudo docker build . -t flask-app
+   33  sudo docker images
+   34  sudo docker run -p 8000:8000 --name web-app flask-app  
+   35  sudo docker run -d -p 8000:8000 --name application flask-app  
+   36  sudo docker login
+   37  sudo docker images
+   38  sudo docker tag flask-app latest
+   39  sudo docker tag flask-app:latest saadullah3306/flask-app-docker:v1
+   40  docker push saadullah3306/flask-app-docker:v1
+   41  sudo docker push saadullah3306/flask-app-docker:v1
+   42  docker images
+   43  sudo docker ps
+   44  sudo docker stop abf00b5aef24 
+   45  docker images
+   46  history
+   47  history > Deploy-Flask-App-Using-Docker
+   48  ls
+   49  clone git https://github.com/saadullah3306/Docker-commands.git
+   50  ls
+   51  git add .
+   52  git commit "PYTHON-FILE DEPLOY USING DOCKER:
+   53  GIT ADD .
+   54  git add .
+   55  git commit -m "PYTHON-FILE DEPLOY USING DOCKER"
+   56  git push -u origin main
+   57  Saad Khan@DESKTOP-M5F0K3D MINGW64 ~/Downloads
+   58  $ ssh -i "saad-key.pem" ubuntu@ec2-98-91-211-189.compute-1.amazonaws.com
+   59  The authenticity of host 'ec2-98-91-211-189.compute-1.amazonaws.com (98.91.211.189)' can't be established.
+ED25519 key fingerprint is: SHA256:aJN0822PUKGYjBdPJljeiJV1+CjX6QAYO3bo/Xmx+Lc
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ec2-98-91-211-189.compute-1.amazonaws.com' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1015-aws x86_64)
+
+   60  git remote remove origin
+   61  git remote add origin https://github.com/saadullah3306/Flask-Based-Python-Application-on-AWS-EC2-with-Docker.git
+   62  git push -u origin main
+   63  git clone https://github.com/saadullah3306/Docker-commands.git
+   64  ls
+   65  cp * Docker-commands
+   66  cp * Docker-commands/
+   67  ~/Flask-Based-Python-Application-on-AWS-EC2-with-Docker
+   68  cp -r . Docker-commands/
+   69  cd Docker-commands
+   70  cp -r ../Deploy-Flask-App-Using-Docker .
+   71  cp -r ../flask-app .
+   72  cp ../Dockerfile .
+   73  cp ../requirements.txt .
+   74  cp ../app.py .
+   75  cp ../README.md .
+   76  ls
+   77  git add .
+   78  git commit -m "Phython project deployement using docker"
+   79  git push -u origin main
+   80  git add .
+   81  git push -u origin main
+   82  cd /Docker-commands
+   83  ls
+   84  cd ~
+   85  cd Docker-commands
+   86  cd Docker-commands 
+   87  git clone https://github.com/saadullah3306/Docker-commands.git
+   88  cp Deploy-Flask-App-Using-Docker  Docker-commands/
+   89  history
+   90  history > Deploy-Flask-App-Using-Docker.txt
