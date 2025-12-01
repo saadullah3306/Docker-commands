@@ -1,0 +1,47 @@
+    1  sudo apt update
+    2  sudo apt install python3-pip python3-venv -y
+    3  git clone git clone https://github.com/Umair1012/django-notes-app.git
+    4  ls
+    5  git clone git clone https://github.com/Umair1012/django-notes-app.git
+    6  git clone https://github.com/Umair1012/django-notes-app.git
+    7  ls
+    8  cd django-notes-app/
+    9  ls
+   10  python3 -m venv django
+   11  source django/bin/activate
+   12  pip install -r requirements.txt
+   13  python manage.py migrate
+   14  python manage.py runserver 0.0.0.0.:8000
+   15  python manage.py runserver 0.0.0.0.:8000python manage.py runserver 0.0.0.0:8000
+   16  python manage.py runserver 0.0.0.0.:8000
+   17  python manage.py runserver 0.0.0.0:8000
+   18  nano dockerfile
+   19  sudo docker build . -t django-app
+   20  sudo apt install docker.io
+   21  ls
+   22  sudo docker build . -t django-app
+   23  nano dockerfile
+   24  sudo docker build . -t django-app
+   25  nano dockerfile
+   26  sudo docker build . -t django-app
+   27  sudo docker images
+   28  sudo docker -d -p 8000:8000 --name webserver django-app
+   29  sudo docker ps
+   30  sudo docker ps -a
+   31  sudo docker -d -p 8000:8000 --name webserver django-app:latest
+   32  sudo docker -d -p 8000:8000 --name webapp django-app:latest
+   33  sudo docker ps -a
+   34  sudo docker -d -p 8000:8000 --name webserver django-app:latest
+   35  sudo docker run -d -p 8000:8000 --name webserver django-app:latest
+   36  sudo docker ps
+   37  sudo docker login
+   38  sudo docker tag django-app:latest saadullah3306/django-app:V1
+   39  sudo docker push saadullah3306/django-app:V1
+   40  history < containerized-Django-application.txt
+   41  git clone https://github.com/saadullah3306/Docker-commands.git
+   42  ls
+   43  cp containerized-Django-application.txt Docker-commands/
+   44  cd ~
+   45  cp containerized-Django-application.txt Docker-commands/
+   46  ls
+   47  history > containerized-Django-application.txt
