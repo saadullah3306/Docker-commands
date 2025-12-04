@@ -1,0 +1,28 @@
+    1  git clone https://github.com/Umair1012/two-tier-flask-app.git
+    2  ls
+    3  cd two-tier-flask-app
+    4  nano dockerfile
+    5  docker build . -t flask-app
+    6  docker images
+    7  docker run -d -p 8000:80 --name app-container nginx
+    8  docker run -d -p 8001:80 --name database-container nginx
+    9  docker ps
+   10  docker exec -itapp-container /bin/bash
+   11  docker exec -it app-container /bin/bash
+   12  docker ps
+   13  docker stop ecee2f4b1c3f e395d0f59c3f 
+   14  docker rm ecee2f4b1c3f e395d0f59c3f 
+   15  docker network create twotier
+   16  docker network ls
+   17  docker run -d -p 8001:80 --name database-container --network=twotier nginx
+   18  docker run -d -p 8000:80 --name app-container --network=twotier nginx
+   19  docker ps
+   20  docker exec -it app-container /bin/bash
+   21  docker run -d   -p 3306:3306   --name mysql   --network twotier   -e MYSQL_DATABASE=mydb   -e MYSQL_ROOT_PASSWORD=admin   mysql
+   22  docker run -d   -p 5000:5000   --network=twotier   -e MYSQL_HOST=mysql   -e MYSQL_USER=root   -e MYSQL_PASSWORD=admin   -e MYSQL_DB=mydb   flask-app
+   23  docker ps
+   24  cd ~
+   25  git clone https://github.com/saadullah3306/Docker-commands.git
+   26  ls
+   27  cd Docker-commands 
+   28  history > docker-networking.txt
